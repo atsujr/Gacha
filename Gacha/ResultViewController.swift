@@ -20,7 +20,7 @@ class ResultViewController: UIViewController {
             monsterImageView.image = UIImage(named: "monster010")
             backgroundImageView.image = UIImage(named: "bg_gold")
             
-        }else if number > 7 {
+        }else if number > 6 {
             monsterImageView.image = UIImage(named: "monster006")
             backgroundImageView.image = UIImage(named: "bg_red")
         }else{
